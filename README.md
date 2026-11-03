@@ -8,7 +8,7 @@ Responsive messaging interface built with React, designed for desktop and mobile
 
 <br />
 
-**[🌐 Open the live website]([text](https://chatrix-phi.vercel.app/chats))**
+**[🌐 Open the live website](https://chatrix-phi.vercel.app/)**
 
 <sub>Replace <code>YOUR_LIVE_LINK_HERE</code> with the deployed site URL when it is available.</sub>
 
