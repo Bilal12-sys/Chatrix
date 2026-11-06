@@ -200,6 +200,13 @@ function WelcomePanel({
             event.target.value = ''
           }} />
         </label>
+        
+        <input
+          aria-label="Write a message"
+          onChange={(event) => onDraftChange(event.target.value)}
+          placeholder="Type a message..."
+          value={draft}
+        />
         <div className="emoji-control">
           <button
             className="composer-icon-button"
@@ -226,15 +233,10 @@ function WelcomePanel({
             ))}
           </div>
         </div>
-        <input
-          aria-label="Write a message"
-          onChange={(event) => onDraftChange(event.target.value)}
-          placeholder="Type a message..."
-          value={draft}
-        />
         <button className="send-button" type="submit" aria-label="Send message">
           <FiSend />
         </button>
+        
       </form>
     </section>
   )

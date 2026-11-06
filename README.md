@@ -48,6 +48,7 @@ Chatrix is a UI-focused project for practicing and demonstrating the details tha
 ### Run locally
 
 ```bash
+cd client
 npm install
 npm run dev
 ```
@@ -66,27 +67,29 @@ npm run lint     # Check the source with Oxlint
 
 ```text
 Chatrix/
-├── index.html                         # HTML entry point and page metadata
-├── package.json                       # Dependencies and npm scripts
-└── src/
-    ├── main.jsx                       # React application entry point
-    ├── App.jsx                        # Routes, workspace state, dialogs, and startup intro
-    ├── App.css                        # Application-wide styles and responsive layouts
-    ├── assets/
-    │   ├── pnd-logo.png               # Chatrix brand image
-    │   ├── Logo.png                   # Browser favicon
-    │   └── Chatrix Glassmorphism Chat Interface.png
-    ├── components/
-    │   ├── Sidebar/
-    │   │   └── Sidebar.jsx            # Main navigation and profile shortcut
-    │   ├── ChatList/
-    │   │   ├── Avatar.jsx             # Conversation-type avatar
-    │   │   ├── ChatList.jsx           # Search, filters, and conversation list
-    │   │   └── conversations.js       # Sample conversation data
-    │   └── WelcomePanel/
-    │       └── WelcomePanel.jsx       # Welcome state, message thread, and composer
-    └── utils/
-        └── dateTime.js                # Localized time formatting helper
+├── client/                            # React/Vite application
+│   ├── index.html                     # HTML entry point and page metadata
+│   ├── package.json                   # Dependencies and npm scripts
+│   └── src/
+│       ├── main.jsx                   # React application entry point
+│       ├── App.jsx                    # Routes, workspace state, dialogs, and startup intro
+│       ├── App.css                    # Application-wide styles and responsive layouts
+│       ├── assets/
+│       │   ├── pnd-logo.png           # Chatrix brand image
+│       │   ├── Logo.png               # Browser favicon
+│       │   └── Chatrix Glassmorphism Chat Interface.png
+│       ├── components/
+│       │   ├── Sidebar/
+│       │   │   └── Sidebar.jsx        # Main navigation and profile shortcut
+│       │   ├── ChatList/
+│       │   │   ├── Avatar.jsx         # Conversation-type avatar
+│       │   │   ├── ChatList.jsx       # Search, filters, and conversation list
+│       │   │   └── conversations.js   # Sample conversation data
+│       │   └── WelcomePanel/
+│       │       └── WelcomePanel.jsx   # Welcome state, message thread, and composer
+│       └── utils/
+│           └── dateTime.js            # Localized time formatting helper
+└── server/                            # Reserved for future backend code
 ```
 
 ## Built with

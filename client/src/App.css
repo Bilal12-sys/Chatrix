@@ -768,7 +768,7 @@ input:focus-visible {
     border: 1px solid var(--muted-light);
     box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.395);
     border-radius: 20px;
-    background: var(--glass-edge);
+    background:  rgba(255, 255, 255, 0.269);
     text-align: left;
 }
 
@@ -1037,16 +1037,16 @@ input:focus-visible {
 .emoji-picker {
     position: absolute;
     z-index: 4;
-    bottom: calc(100% + 12px);
-    left: 0;
+    bottom: calc(100% + 15px);
+    left: calc(120 + 13px);
     display: none;
     width: 220px;
     grid-template-columns: repeat(5, 1fr);
     gap: 4px;
-    padding: 9px;
-    border: 1px solid rgba(255,255,255,.9);
-    border-radius: 16px;
-    background: rgba(250,252,255,.96);
+    padding: 10px;
+    border: 1px solid var(--muted);
+    border-radius: 18px;
+    background: rgba(250, 252, 255, 0.441);
     box-shadow: 0 10px 30px rgba(48,76,133,.18);
 }
 
