@@ -765,9 +765,10 @@ input:focus-visible {
     justify-content: center;
     gap: 9px;
     padding: 9px 10px;
-    border: 1px solid rgba(255, 255, 255, .24);
-    border-radius: 22px;
-    background: rgba(219, 230, 252, .61);
+    border: 1px solid var(--muted-light);
+    box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.395);
+    border-radius: 20px;
+    background: var(--glass-edge);
     text-align: left;
 }
 
@@ -788,10 +789,10 @@ input:focus-visible {
 .coming-soon-tag {
     flex: 0 0 auto;
     padding: 4px 6px;
-    border: 1px solid rgba(95, 128, 190, .12);
+    border: 1px solid var(--muted-light );
     border-radius: 9px;
-    color: #64799f;
-    background: rgba(255,255,255,.62);
+    color: var(--text);
+    background: rgba(245, 246, 247, 0.16);
     font-size: 8px;
     font-weight: 650;
 }
